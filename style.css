@@ -1,0 +1,567 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family:sans-serif;
+}
+/* HEADER SECTION...... */
+.nav{
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav a{
+    text-decoration: none;
+    color: green;
+    margin-right: 3vw;
+    font-weight: 700;
+}
+/* slider section.......... */
+.slider{
+    display: flex;
+
+}
+.slidertext{
+    width:40vw;
+    height:80vh ;
+    background-color:rgb(242, 243, 242);
+    color: green;
+    display: flex;
+}
+.slidertextinner{
+    background-color:rgb(242, 243, 242); 
+    height: 60vh;
+    width: 30vw;
+    margin-left: 3vw;
+    margin-top: 20vh;
+}
+.slidertextinner h1{
+    line-height: 0%;
+}
+.btn1{
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: green;
+        height: 7vh;
+        width: 10vw;
+        margin-top: 8vh;
+        border: 1px solid rgb(30, 95, 0);
+        color: white;
+}
+.btn2{
+    width: 3.5vw;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 20px;
+    background-color: green;
+    height: 7vh;
+    border: 1px solid rgb(30, 95, 0);
+    color: white;
+}
+.sliderimg img{
+    width:60vw;
+    height:80vh ;
+    background-color: royalblue;
+}
+/* abou  us section............. */
+.aboutus{
+    height: 30vh;
+    display: block;
+    text-align: center;
+    justify-content: center ;
+}
+.aboutusheading{
+    margin-top: 10vh;
+    height: 16vh;
+}
+.aboutusheading h1{
+    font-size: 6vw;
+    color: rgb(231, 234, 228,0.9);
+
+}
+.aboutusheading h2{
+    font-size: 3vw;
+    color: rgb(30, 95, 0);
+    position: relative;
+    bottom: 20vh;
+}
+.aboutuspara{
+    width: 60vw;
+    margin-top: 20px;
+    margin: auto;
+    color: rgb(30, 95, 0);
+}
+/* menu section .................. */
+.menu1{
+    height:70vh ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu1text{
+    width: 32vw;
+    height: 90%;
+    margin-top: 5vh;
+}
+.menu1text h2{
+    color: rgb(30, 95, 0);
+    font-size: 2.8vw;
+    font-weight: 530;
+    font-family:sans-serif;
+}
+.menu1text p{
+    color: rgb(30, 95, 0);
+}
+.menu1button1{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: green;
+    height: 7vh;
+    width: 10vw;
+    margin-top: 3vh;
+    border: 1px solid rgb(30, 95, 0);
+    color: white;
+}
+.menu1button2{
+    width: 3.5vw;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 20px;
+    background-color: green;
+    height: 7vh;
+    border: 1px solid rgb(30, 95, 0);
+    color: white;
+}
+
+.menu1img img{
+    width: 40vw;
+    height: 100%;
+}
+
+/* cards section.......... */
+.cards{
+    height: 70vh;
+
+    margin-top: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card1{
+    height: 100%;
+    width: 20vw;  
+}
+.cardup{
+    height: 40%;
+    background-color: rgb(25, 93, 0);
+    text-align: center;
+    margin-top: -4vh;
+    color:rgb(254, 254, 254);
+}
+.cardup h2{
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.cardup h3{
+    position: relative;
+    top: 15px;
+    font-size: 40px;
+    
+}
+.carddown{
+    height: 60%;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardp{
+    
+    margin-top: 1vh;
+    height:35vh ;
+    width: 15vw;
+}
+.cardp p{
+    line-height: 8vh;
+    color: rgb(68, 140, 0);
+    font-weight: 600;
+}
+.cardp button{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: green;
+    height: 7vh;
+    width: 10vw;
+
+    border: 1px solid rgb(30, 95, 0);
+    color: white;
+}
+/* sale section.................. */
+.sale{
+    height: 70vh;
+    background-color:rgb(249, 244, 242);
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+.saleimg img{
+    height: 70vh;
+    width: 50vw;
+}
+.saletext{
+    height: 70vh;
+    width: 40vw;
+    background-color: cadetblue;
+    text-align: right;
+    color: rgb(25, 93, 0);
+    background-color:rgb(249, 244, 242);
+
+}
+.saletext h3{
+    font-size: 2.5vw;
+ 
+}
+.saletext h2{
+    font-size: 3.5vw;
+    line-height: 2vh;
+}
+.saletext h4{
+    font-size: 3.3vw;
+    line-height: 2vh;
+    font-weight: 300;
+}
+.saletext button{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: green;
+    height: 7vh;
+    width: 10vw;
+    margin-top: 5vh;
+    border: 1px solid rgb(30, 95, 0);
+    color: white;
+}
+/* blog section .................... */
+/* Double img section................ */
+.double{
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.doubleimg img{
+    height: 60vh;
+    width: 30vw;
+}
+.doubletext{
+    height: 60vh;
+    width: 30vw;
+    background-color:rgb(241, 241, 241);
+    display: flex;
+    align-items: right;
+    justify-content: center;
+}
+.doubletextin{
+    height: 55vh;
+    width:25vw ;
+    color: rgb(30, 95, 0);
+}
+.doubletextin h2{
+    font-size: 2.3vw;
+    font-weight: 500;
+}
+.doubletextin p{
+    font-size: 1.5vw;
+}
+.doubletextin button{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: green;
+    height: 7vh;
+    width: 10vw;
+    margin-top: 3vh;
+    border: 1px solid rgb(30, 95, 0);
+    color: white;
+}
+/* footer section ............... */
+.footer{
+    background-color: rgb(32, 95, 0);
+    height: 60vh;
+    margin-top: 20vh;
+}
+.footerin{
+    height: 70vh;
+    width: 40vw;
+    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.footerin2{
+    height: 70vh;
+    width: 40vw;
+    text-align: center;
+}
+.footerinicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 10vh;
+
+}
+.footerin h2{
+    font-size: 3vw;
+}
+.footericon{
+    height:5vh ;
+    width: 3vw;
+    border-radius: 50%;
+    margin-left: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(30, 95, 0);
+    background-color: white;
+}
+.footerin img{
+    height: 15vh;
+}
+@media (max-width:600px){
+    .nav{
+        height: 7vh;
+    }
+    .nav a{
+        font-size: 1.3vh;
+    }
+    /* slider section......... */
+    .slider{
+        height:30vh;
+    }
+    .slidertext{
+
+        width:50vw;
+        
+    
+    }
+    .slidertext{
+        height: 24vh;
+    }
+    .slidertextinner{
+    
+        height: 20vh;
+        width: 40vw;
+        margin-top: 4vh;
+    }
+    .slidertextinner hr{
+        width: 13vh;
+    }
+    .slidertextinner h1{
+        font-size: 4vw;
+    }
+    .slidertext h2{
+        font-size: 3vw;
+    }
+    .slidertext{
+        font-size: 2vw;
+    }
+    .btn1{
+        height: 3vh;
+        width: 20vw;
+        color: white;
+        font-size: 2vw;
+        margin-top: 3vh;
+        
+    }
+    .btn2{
+        height: 3vh;
+        width: 8vw;
+        color: white;
+        font-size: 2vw;
+    
+    }
+    .sliderimg img{
+        height: 28vh;
+       
+    }
+    /* aboutus section............. */
+    .aboutus{
+    
+        margin-top: -8vh;
+        height: 13vh;
+    
+    }
+    .aboutusheading{
+        
+        height: 5vh;
+    
+    }
+    .aboutusheading h1{
+        font-size: 7vw;
+    }
+    .aboutusheading h2{
+        position: relative;
+        bottom: 5vh;
+        font-size: 4vw;
+    }
+    .aboutuspara{
+        font-size: 3vw;
+    
+        width: 80vw;
+    }
+    /* menu1 section............. */
+    .menu1{
+        height: 30vh;
+    }
+    .menu1text{
+        width: 45vw;
+        height: 25vh;
+        margin-bottom: 30vh;
+    }
+    .menu1text h2{
+        font-size: 3.5vw;
+        font-weight: 600;
+    }
+    .menu1text p{
+        font-size: 2.5vw;
+    }
+    .menu1button1{
+        height: 2.5vh;
+        width: 17vw;
+        font-size: 2vw;
+        margin-top: -5vh;
+    }
+    .menu1button2{
+        height: 2.5vh;
+        width: 7vw;
+        font-size: 2vw;
+
+    }
+    .sliderimg img{
+        width: 50vw;
+        height: 80%;
+    }
+    /* cards section............. */
+    .cards{
+        height: 30vh;
+        margin-top: 4vh;
+    }
+    .card1{
+        height: 30vh;
+        width: 30vw;
+       margin-top: 1.5vh;
+    }
+    .cardup{
+        height: 10vh;
+        margin-top: -2.3vh;
+    }
+    .cardup h2{
+        font-size: 4vw;
+        margin-bottom: -2vh;
+    }
+    .cardup h3{
+        font-size: 4vw;
+    }
+    .carddown{
+        height: 20vh;
+        margin-top:vh;
+    }
+    .cardp{
+        height: 15vh;
+        width: 25vw;
+       
+        
+    }
+    .cardp p{
+        font-size: 1vh;
+        line-height: 3vh;
+    }
+    .cardp button{
+        height: 3vh;
+        width: 15vw;
+        font-size: 2vw;
+    }
+    /* sale section ............ */
+    .sale{
+        height: 30vh;
+        
+        margin-top: 30px;
+    }
+    .saleimg img{
+        height: 30vh;
+    }
+    .saletext{
+        height: 30vh;
+    }
+    .saletext h3{
+        font-size: 3vw;
+    }
+    .saletext h2{
+        font-size: 3.5vw;
+    }
+    .saletext h4{
+        font-size: 3.5vw;
+    }
+    .saletext p{
+        font-size: 2.5vw;
+    }
+    .saletext button{
+        height: 3vh;
+        width: 25vw;
+        font-size: 2.3vw;
+        margin-top: 20px;
+    }
+    /* double img section............. */
+    .double{
+        height: 20vh;
+    }
+    .doubleimg img{
+        height: 20vh;
+    }
+    .doubletext{
+        height: 20vh;
+    }
+    .doubletextin{
+        height: 17vh;
+        width: 27vw ;
+        margin-top: 10px;
+    }
+    .doubletextin h2{
+        font-size: 2.5vw;
+    }
+    .doubletextin p{
+        font-size: 2.3vw;
+    }
+    .doubletextin button{
+        height:2vh;
+        width: 15vw;
+        font-size: 1.6vw;
+        margin-top: 5px;
+    }
+    /* footer section ...................... */
+    .footer{
+        height: 25vh;
+        margin-top: 5vh;
+    }
+    .footerin img{
+        height: 8vh;
+    }
+    .footerin h3{
+        font-size: 2vw;
+    }
+    .footerinicon{
+        height: 5vh;
+    }
+    .footericon{
+        width: 5vw;
+        height: 3vh;
+    }
+    
+}
+.rough{
+    height: 500px;
+    background-color: blanchedalmond;
+}
